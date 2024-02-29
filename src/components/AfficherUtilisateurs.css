@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #034d3d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #034d3d;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#home-button:hover {
+  color: #034d3d;
+  background-color: #ffffff;
+}
+
+#logout-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #034d3d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#logout-button:hover {
+  color: #034d3d;
+  background-color: #ffffff;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h5,
+.user-details strong,
+.user-details select,
+.user-details button {
+  margin-bottom: 15px; 
+}
+
+.user-details select {
+  padding: 8px; /* Ajustez la taille du padding selon vos préférences */
+  font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style des options du select */
+.user-details select option {
+  background-color: #fff;
+  color: #034d3d;
+}
+
+.select-container {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #034d3d;
+  border-radius: 5px;
+  color: #034d3d;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #034d3d;
+  color: #ffffff;
+}
+
+.small-buttons-container button {
+  margin-right: 5px;
+}
+
+.small-buttons-container button:hover {
+  background-color: #034d3d;
+  color: #ffffff;
+}
+.Default {
+  text-align: center;
+  border: #034d3d;
+}

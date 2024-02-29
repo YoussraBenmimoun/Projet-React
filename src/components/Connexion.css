@@ -1,0 +1,94 @@
+.connexion-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #034d3d;
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(139, 0, 0, 0.2); 
+  }
+  
+  .error-message {
+    color: #4d0e03; 
+    margin-bottom: 10px;
+  }
+  
+  .connexion-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connexion-form label {
+    margin-bottom: 8px;
+    color: #034d3d; 
+  }
+  
+  .connexion-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #034d3d; 
+    border-radius: 5px;
+  }
+  
+  .connexion-form input[type="submit"] {
+    background-color: #034d3d;
+    color: #fff; 
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .connexion-form input[type="submit"]:hover {
+    background-color: #19705d; 
+  }
+  
+   .inscription-link {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .inscription-link a {
+    text-decoration: none; 
+    color: #034d3d; 
+    font-weight: bold;
+    display: inline-block; 
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s; 
+  }
+  
+  .inscription-link a:hover {
+    border-color: #19705d; 
+  }
+  body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    min-height: 100vh; /* 100% de la hauteur de la vue */
+    background-color: #ffffff; /* Couleur de fond (ajustez selon vos préférences) */
+    font-family: Arial, sans-serif; /* Choisissez une police de caractères appropriée */
+  }
+  
+  .connexion-page-link {
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 10x;
+  }
+  
+  .connexion-page-link a {
+    text-decoration: none; 
+    color: #034d3d; 
+    font-weight: bold;
+    display: inline-block; 
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s; 
+  }
+  
+  .connexion-page-link a:hover {
+    border-color: #19705d; 
+  }
